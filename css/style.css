@@ -113,7 +113,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0% 8%;
+    padding: 4% 8%;
 }
 .processLeftBox{
     height: 60%;
@@ -249,25 +249,348 @@ section{
 }
 /* -- ------------------------------------------------------------------ creativeOption1 -- */
 .creativeOption1{
+    height: 60vh !important;
     display:  flex;
     justify-content: center;
-    gap: 2%;
-    border: 2px solid black;
     background-color: #21313e;
 }
-.process1Lef{
-    height: 60%;
-    width: 40%;
-    border: 2px solid white;
+.creativeLeft{
+    height: 60%; 
+    width: 30%;
+    padding: 3% 0%;
+    text-align: center;
+    margin-left: 10%;
 }
-.process1Lef{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-.processRight{
+.creativeRight{
+    height: 110%; 
+    width: 60%;
     background-image: url('../images/creativeoptions_main.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin: -10% 0%;;
+}
+.creativeLeft h3{
+    font-size: 2rem;
+    color: orange;
+    text-align: left;
+}
+.creativeLeft h1{
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+    padding: 3% 0%;
+}
+.creativeLeft p{
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    line-height: 2.5rem;
+}
+/*  */
+.creativeOptionPaira{
+    height: 15%;
+    width: 100%;
+    background-color: #21313e;
+}
+.creativeOptionPaira p{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0% 30%;
+    color: white
+}
+ .creativeCardBox{
+    height: 130%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 7%;
+    gap: 2%;
+    background-color: #21313e;
+ }
+ .creativeCard{
+    height: 90%;
+    width: 30%;
+ }
+ .creativeCardImg1{
+    height: 40%;
+    width: 100%;
+    background-image: url('../images/creativebank.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .creativeCardHeading{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    color: #A4BCC2;
+ }
+ .checkMarkTextBox{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .checkMarkText{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    padding: 3% 3%;
+ }
+ .checkMarkText p{
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+ }
+ .buttonDiv{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .buttonDiv .button1{
+    padding: 4% 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #A4BCC2;
+    color: #263643;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+/*  */
+.creativeCardImg2{
+    height: 40%;
+    width: 100%;
+    background-image: url('../images/creativestore.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.creativeCardHeading2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    color: orange;
+}
+.buttonDiv .button2{
+    padding: 4% 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: orange;
+    color: #263643;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*  */ 
+.creativeCardImg3{
+    height: 40%;
+    width: 100%;
+    background-image: url('../images/bespokecreative.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.creativeCardHeading3{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    color: #00BAB0;
+}
+.buttonDiv .button3{
+    padding: 4% 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #00BAB0;
+    color: #263643;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------------ Meet the team */
+.meetTheTeamSec{
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 19.5%;
+    padding: 0% 10%;
+}
+.teamHeading{
+    height: 10%;
+    width: 100%;
+}
+.teamHeading p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 550;
+}
+.teamPaira{
+    height: 10%;
+    width: 100%;
+    padding: 2% 20%;
+}
+.teamPaira p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+}
+.teamFilterDiv{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+}
+.teamFilterDiv div{
+    height: 100%;
+    width: 15%;
+    border-right: 1px solid darkslategrey;
+    cursor: pointer;
+    background-color: #e9ecf1;
+}
+.teamFilterDiv div p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.firstChild{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.lastChild{
+    border-right: none !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #4CB4BE;
+}
+.hrLine{
+    height: 4vh;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+.teamCradBox{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.teamCard{
+    height: 55vh;
+    flex-basis: 21%;
+    padding: 3% 3%;
+    margin-top: 2%;
+    border-radius: 5px;
+
+    transition: all 0.4s ease-out 0s;
+    box-shadow: 0px 0px 40px 0px rgb(156 156 156 / 25%);
+}
+.teamCard:hover{
+    border: 1px solid black;
+    box-shadow: none;
+}
+.teamImg{
+    height: 50%;
+    width: 100%;
+}
+.img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    transition: all 0.4s ease-out 0s;
+}
+.img:hover{
+    -webkit-filter: grayscale(0%);
+}
+.teamName{
+    height: 15%;
+    width: 100%;
+}
+.teamName p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #415263;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: center;
+    transition: all 0.4s ease-out 0s;
+}
+.teamName p:hover{
+    color: #dc3545;
+    cursor: pointer;
+}
+.teamWork{
+    height: 25%;
+    width: 100%;
+}
+.teamWork p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #5e7185;
+    text-align: center;
+}
+.teamContacts{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    
+}
+.teamContacts:hover{
+    cursor: pointer;
+    fill: #dc3545 !important;
+    color: #4CB4BE !important;
+    background-color: #5e7185;
 }
