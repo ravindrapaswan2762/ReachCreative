@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+section{
+    height: 95vh;
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------------------- Navbar */
+.header {
+    height: 9rem;
+    margin: 0;
+    padding: 0 10rem;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.logo-box {
+    height: 7rem;
+    width: 15rem;
+    margin: 2rem;
+    color: white;
+    padding: 1rem 1rem;
+    margin-top: 3%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 222%;
+    padding-top: 15%; 
+}
+
+.navList {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+    padding: 0 3rem; 
+}
+
+.navList li a{
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------------------- home sec */
+.homeSec{
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.homeLeftBox{
+    height: 80%;
+    width: 30%;
+
+    background-image: url('../images/processcards.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homeRightRight{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeHeading p{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bolder;
+    color: grey;
+}
+.span1{
+    color: #4CB4BE;
+}
+.span2{
+    color: #415263;
+}
+.homePaira p{
+    padding: 3% 7%;
+    font-size: 1.5rem;
+    color: grey;
+}
+.homeSec button{
+    padding: 2% 6%;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------------------ process section */
+.processSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0% 8%;
+}
+.processLeftBox{
+    height: 60%;
+    width: 20%;
+    border: 1px solid #ddd;
+}
+.processMiddleBox{
+    height: 60%;
+    width: 60%;
+}
+.processRightBox{
+    height: 60%;
+    width: 10%;
+}
+.bigChild{
+    height: 40%;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #e5e5e5;
+}
+.processLeftChild{
+    height: 15%;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: grey;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/*  */
+.processMiddleBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.processMiddleChild{
+    height: 100%;
+    width: 32%;
+    border: 1px solid green;
+}
+.processMiddleImg1{
+    height: 80%;
+    border-bottom: 1px solid black;
+    background-image: url('../images/desprint.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.processMiddleImg2{
+    height: 80%;
+    border-bottom: 1px solid black;
+    background-image: url('../images/descustom.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.processMiddleImg3{
+    height: 80%;
+    border-bottom: 1px solid black;
+    background-image: url('../images/desprog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.processMiddlePaira{
+    height: 10%;
+    width: 100%;
+    padding-top: 3%;
+}
+.processMiddleView{
+    height: 10%;
+    width: 100%;
+}
+.processMiddlePaira p{
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #415263;
+}
+.processMiddleView p{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4CB4BE;
+    cursor: pointer;
+}
+/*  */
+.processRightBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.leftSlide{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4CB4BE;
+}
+.rightSlide{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4CB4BEed;
+}
+/* -- ------------------------------------------------------------------ creativeOption1 -- */
+.creativeOption1{
+    display:  flex;
+    justify-content: center;
+    gap: 2%;
+    border: 2px solid black;
+    background-color: #21313e;
+}
+.process1Lef{
+    height: 60%;
+    width: 40%;
+    border: 2px solid white;
+}
+.process1Lef{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.processRight{
+    background-image: url('../images/creativeoptions_main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
