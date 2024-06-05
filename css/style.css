@@ -508,13 +508,14 @@ section{
     width: 100%;
     border-bottom: 2px solid grey;
 }
-.teamCradBox{
+.teamCardBox{
     height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 2%;
+    padding-bottom: 3%;
 }
 .teamCard{
     height: 55vh;
@@ -588,9 +589,131 @@ section{
     gap: 10%;
     
 }
-.teamContacts:hover{
+.teamContacts img:hover{
     cursor: pointer;
     fill: #dc3545 !important;
     color: #4CB4BE !important;
-    background-color: #5e7185;
+}
+/* *************************************************************** Banner */
+.banner{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textCarosselDiv{
+    position: absolute;
+    height: auto;
+    border: 2px solid black;
+    z-index: 999;
+}
+.creativeWrap{
+    height: auto;
+    border: 2px solid green;
+    padding: 3% 0%;
+}
+.creativeWrapText h2{
+    padding: 1% 15%;
+    text-align: center;
+
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #415263;
+}
+.creativeWrapText p{
+    padding: 1% 15%;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #415263;
+}
+.creativeWrapCardBox{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5%;
+    gap: 2%;
+}
+.creativeWrapCard{
+    height: 60vh;
+    flex-basis: 25%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease-out 0s;
+}
+.creativeWrapCard:hover{
+    box-shadow: none;
+    border: 1px solid black;
+}
+.creativeWrapImg{
+    height: 80%;
+    width: 100%;
+}
+.creativeWrapImg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.creativeWrapCardText{
+    height: 20%;
+    width: 100%;
+    padding: 5% 0%;
+    list-style: 3%;
+}
+.creativeWrapCardText h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+.creativeWrapCardText p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* **************************************************************************** contactSec */
+.contactSec{
+    height: 95vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.contactHeading h1{
+    padding: 2% 10%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #415263;
+    border: 2px solid black;
+}
+.contactBox{
+    height: 60vh;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+
+    display: flex;
+}
+.contactLeftBox{
+    height: 100%;
+    width: 30%;
+    border-right: 2px solid black;
+}
+.contactLeftBox h1{
+    padding: 3% 2%;
+    font-size: 3rem;
+}
+.leftIconText{
+    padding: 5% 2%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    font-size: 2rem;
 }
