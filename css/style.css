@@ -440,9 +440,8 @@ section{
 .meetTheTeamSec{
     height: auto;
     width: 100%;
-    border: 2px solid black;
     margin-top: 19.5%;
-    padding: 0% 10%;
+    padding: 6% 10%;
 }
 .teamHeading{
     height: 10%;
@@ -539,11 +538,11 @@ section{
     object-fit: contain;
     height: 100%;
     width: 100%;
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     transition: all 0.4s ease-out 0s;
 }
 .img:hover{
-    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 .teamName{
     height: 15%;
@@ -607,12 +606,10 @@ section{
 .textCarosselDiv{
     position: absolute;
     height: auto;
-    border: 2px solid black;
     z-index: 999;
 }
 .creativeWrap{
     height: auto;
-    border: 2px solid green;
     padding: 3% 0%;
 }
 .creativeWrapText h2{
@@ -679,41 +676,149 @@ section{
     font-size: 1.5rem;
 }
 /* **************************************************************************** contactSec */
-.contactSec{
-    height: 95vh;
-    width: 100%;
-    border: 2px solid black;
-}
 .contactHeading h1{
     padding: 2% 10%;
+    padding-bottom: 5%;
     text-align: center;
     font-size: 4rem;
     font-weight: 400;
     color: #415263;
-    border: 2px solid black;
 }
+
+.contactSec{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
 .contactBox{
-    height: 60vh;
+    position: absolute;
+    height: auto;
     width: 80%;
-    border: 2px solid black;
-    margin: auto;
+    padding: 3% 1%;
+    left: 10%;
+    top: 0%;
 
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contactLeftBox{
-    height: 100%;
-    width: 30%;
-    border-right: 2px solid black;
+    flex-basis: 30%;
 }
 .contactLeftBox h1{
-    padding: 3% 2%;
+    padding: 8% 4%;
     font-size: 3rem;
+    color: #415263;
 }
-.leftIconText{
-    padding: 5% 2%;
-    border: 1px solid black;
+.leftIconText1{
+    padding: 8% 4%;
     display: flex;
     align-items: center;
     gap: 3%;
     font-size: 2rem;
+    cursor: pointer;
+    color: #415263;
+}
+.leftIconText2{
+    padding: 8% 4%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #415263;
+}
+
+/*  */
+.contactRightBox{
+    flex-basis: 70%;
+}
+.nameEmailDiv{
+    display: flex;
+    gap: 2%;
+}
+.nameEmailDiv input{
+    height: 8vh;
+    width: 50%;
+    padding: 0% 2%;
+    outline: none;
+    border: 1px solid gray;
+    background-color: #f7f7ff;
+}
+.textArea textarea{
+    height: 18vh;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: #f7f7ff;
+    outline: none;
+    padding: 2% 2%;
+    margin-top: 3%;
+}
+.textAreaBtn button{
+    padding: 2% 6%;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+    background-color: #f7f7ff;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    color: #415263;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ******************************************************** footer */
+.footerBoxes{
+    position: absolute;
+    top: 50%;
+    height: auto;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBoxes div{
+    height: 35vh;
+    width: 25%;
+    padding: 2% 3%;
+    
+}
+.footerBox1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerBox1 .footerBoxImg{
+    position: absolute;
+    height: 70% !important;
+    width: 70% !important;
+    background-image: url('../images/reachcreative_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footerBoxes div h2{
+    font-size: 2rem;
+    padding: 2% 1%;
+    color: white;
+    font-weight: bold;
+}
+.footerBoxes div p{
+    font-size: 1.5rem;
+    padding: 6% 1%;
+    color: white;
+}
+.footerHRline{
+    top: 80%;
+    position: absolute;
+    height: 2vh;
+    width: 80%;
+    border-bottom: 1px solid white;
+    left: 10%;
 }
