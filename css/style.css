@@ -16,10 +16,14 @@ section{
 
 /* --------------------------------------------------------------------------------------- Navbar */
 .header {
+    position: fixed;
     height: 9rem;
+    width: 100%;
     margin: 0;
     padding: 0 10rem;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 999;
     
     display: flex;
     align-items: center;
@@ -58,6 +62,9 @@ section{
     color: gray;
     text-decoration: none;
     font-weight: bold;
+}
+.active{
+    color: #4CB4BE;
 }
 /* ----------------------------------------------------------------------------- home sec */
 .homeSec{
@@ -677,7 +684,7 @@ section{
 }
 /* **************************************************************************** contactSec */
 .contactHeading h1{
-    padding: 2% 10%;
+    padding: 6% 10%;
     padding-bottom: 5%;
     text-align: center;
     font-size: 4rem;
@@ -772,7 +779,7 @@ section{
 /* ******************************************************** footer */
 .footerBoxes{
     position: absolute;
-    top: 50%;
+    top: 70%;
     height: auto;
     width: 80%;
     left: 10%;
@@ -815,10 +822,39 @@ section{
     color: white;
 }
 .footerHRline{
-    top: 80%;
+    top: 95%;
     position: absolute;
     height: 2vh;
     width: 80%;
     border-bottom: 1px solid white;
     left: 10%;
+}
+.backTotop{
+    position: fixed;
+    top: 89%;
+    height: 40px;
+    width: 40px;
+    left: 92%;
+    cursor: pointer;
+    z-index: 999;
+    background-color: #4CB4BE;
+    transition: all 0.4s ease-out 0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.backTotop img{
+    object-fit: contain;
+    height: 28px;
+    width: 28px;
+    margin: 5.5px;
+}
+.backTotop:hover{
+   box-shadow: none;
+   border: 1px solid black;
+}
+.hide{
+    display: none;
+    background: transparent;
+}
+.show{
+    display: block;
 }
